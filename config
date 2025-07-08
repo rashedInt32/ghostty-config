@@ -43,6 +43,7 @@
 # resize-overlay-duration = 4s 200ms
 
 
+
 font-size=21
 adjust-cell-height = 10%
 font-thicken=false
@@ -53,10 +54,12 @@ font-family = "JetBrains Mono Nerd Font"
 font-style-italic="IosevkaTerm Nerd Font"
 
 title=" "
+gtk-titlebar = false
+window-width = 115
+window-height = 60
+window-padding-x = 0
+window-padding-y = 0
 
-window-width = 120
-window-height = 45
-window-padding-x = 4
 
 # Look and Feel
 adjust-cursor-thickness        = 3
@@ -68,6 +71,7 @@ link-url                       = true
 mouse-hide-while-typing        = true
 window-vsync                   = true
 theme                          = everforest-light
+#theme                          = noctis-azureus
 #background-opacity   	       = 0.9
 #background-blur   	       = 10
 
@@ -81,6 +85,8 @@ macos-secure-input-indication  = true
 quit-after-last-window-closed  = true
 scrollback-limit               = 4200
 shell-integration              = zsh
+confirm-close-surface          = false
+
 
 shell-integration-features     = cursor,sudo,title
 
