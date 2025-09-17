@@ -47,11 +47,12 @@
 font-size=21
 adjust-cell-height = 10%
 font-thicken=false
+alpha-blending = linear-corrected
 font-family = "JetBrains Mono Nerd Font"
 #font-family = "IosevkaTerm Nerd Font"
-#font-family = 0xProto
 #font-style-italic="JetBrains Mono Nerd Font"
-font-style-italic="IosevkaTerm Nerd Font"
+#font-family = 0xProto
+#font-style-italic="IosevkaTerm Nerd Font"
 
 title=" "
 gtk-titlebar = false
@@ -59,6 +60,7 @@ window-width = 115
 window-height = 60
 window-padding-x = 0
 window-padding-y = 0
+
 
 
 # Look and Feel
@@ -70,10 +72,10 @@ cursor-opacity                 = 0.8
 link-url                       = true
 mouse-hide-while-typing        = true
 window-vsync                   = true
-theme                          = everforest-light
+#theme                          = everforest-light
 #theme                          = noctis-azureus
-#background-opacity   	       = 0.9
-#background-blur   	       = 10
+theme                          = night-owl
+background-opacity             = 1.0
 
 
 
@@ -88,15 +90,17 @@ shell-integration              = zsh
 confirm-close-surface          = false
 
 
+
+
 shell-integration-features     = cursor,sudo,title
 
 
 
 # Key bindings
-keybind                        = ctrl+h=goto_split:left
+keybind                        = super+h=goto_split:left
 keybind                        = ctrl+j=goto_split:bottom
 keybind                        = ctrl+k=goto_split:top
-keybind                        = ctrl+l=goto_split:right
+keybind                        = super+l=goto_split:right
 keybind                        = ctrl+shift+h=new_split:left
 keybind                        = ctrl+shift+j=new_split:down
 keybind                        = ctrl+shift+k=new_split:up
