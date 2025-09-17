@@ -109,5 +109,3 @@ keybind                        = super+shift+enter=new_split:auto
 keybind                        = super+shift+i=inspector:toggle
 keybind                        = super+shift+r=reload_config
 keybind                        = super+t=new_tab
-keybind                        = unconsumed:ctrl+h=ignore
-keybind                        = unconsumed:ctrl+l=ignore
