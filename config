@@ -45,7 +45,7 @@
 
 
 font-size=21
-adjust-cell-height = 10%
+adjust-cell-height = 20%
 font-thicken=false
 alpha-blending = linear-corrected
 font-family = "JetBrains Mono Nerd Font"
@@ -71,7 +71,7 @@ cursor-invert-fg-bg            = true
 cursor-opacity                 = 0.8
 link-url                       = true
 mouse-hide-while-typing        = true
-window-vsync                   = true
+window-vsync                   = false
 #theme                          = everforest-light
 #theme                          = noctis-azureus
 theme                          = night-owl
@@ -109,3 +109,27 @@ keybind                        = super+shift+enter=new_split:auto
 keybind                        = super+shift+i=inspector:toggle
 keybind                        = super+shift+r=reload_config
 keybind                        = super+t=new_tab
+
+# Performance & Rendering
+grapheme-width-method          = legacy
+custom-shader-animation        = false
+
+# Enhanced Terminal Features
+cursor-click-to-move           = true
+scroll-to-bottom               = keystroke
+selection-clear-on-copy        = true
+link-previews                  = true
+
+# Better UX
+window-inherit-working-directory = true
+window-inherit-font-size       = true
+resize-overlay                 = after-first
+focus-follows-mouse            = true
+
+# Font size controls
+keybind                        = super+equal=increase_font_size:1
+keybind                        = super+minus=decrease_font_size:1
+keybind                        = super+0=reset_font_size
+keybind                        = super+comma=open_config
+keybind                        = super+shift+c=copy_to_clipboard
+keybind                        = super+shift+v=paste_from_clipboard
