@@ -45,7 +45,6 @@
 
 
 font-size=21
-adjust-cell-height = 15%
 font-thicken=false
 alpha-blending = linear-corrected
 font-family = "JetBrains Mono Nerd Font"
@@ -61,6 +60,7 @@ window-height = 60
 window-padding-x = 0
 window-padding-y = 0
 window-padding-balance = true
+window-step-resize = true
 
 
 
