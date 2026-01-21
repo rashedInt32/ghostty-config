@@ -76,6 +76,7 @@ window-vsync                   = true
 #theme                          = everforest-light
 #theme                          = noctis-azureus
 theme                          = night-owl
+#theme                          = tokyonight
 background-opacity             = 1.0
 
 
