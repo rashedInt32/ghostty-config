@@ -1,50 +1,9 @@
-# This is the configuration file for Ghostty.
-#
-# This template file has been automatically created at the following
-# path since Ghostty couldn't find any existing config files on your system:
-#
-#   /Users/rashed/Library/Application Support/com.mitchellh.ghostty/config
-#
-# The template does not set any default options, since Ghostty ships
-# with sensible defaults for all options. Users should only need to set
-# options that they want to change from the default.
-#
-# Run `ghostty +show-config --default --docs` to view a list of
-# all available config options and their default values.
-#
-# Additionally, each config option is also explained in detail
-# on Ghostty's website, at https://ghostty.org/docs/config.
-
-# Config syntax crash course
-# ==========================
-# # The config file consists of simple key-value pairs,
-# # separated by equals signs.
-
-# window-padding-x = 2
-#
-# # Spacing around the equals sign does not matter.
-# # All of these are identical:
-# key=value
-# key= value
-# key =value
-# key = value
-#
-# # Any line beginning with a # is a comment. It's not possible to put
-# # a comment after a config option, since it would be interpreted as a
-# # part of the value. For example, this will have a value of "#123abc":
-# background = #123abc
-#
-# # Empty values are used to reset config keys to default.
-# key =
-#
-# # Some config options have unique syntaxes for their value,
-# # which is explained in the docs for that config option.
-# # Just for example:
-# resize-overlay-duration = 4s 200ms
 
 
+font-size=20
+# better readability
 
-font-size=21
+# avoid window height problems
 font-thicken=false
 alpha-blending = linear-corrected
 font-family = "JetBrains Mono Nerd Font"
@@ -56,11 +15,11 @@ font-family = "JetBrains Mono Nerd Font"
 title=" "
 gtk-titlebar = false
 window-width = 115
-window-height = 60
+window-height = 62
 window-padding-x = 0
 window-padding-y = 0
 window-padding-balance = true
-window-step-resize = true
+window-step-resize = false
 
 
 
@@ -76,6 +35,7 @@ window-vsync                   = true
 #theme                          = everforest-light
 #theme                          = noctis-azureus
 theme                          = night-owl
+#theme = Rose Pine
 #theme                          = tokyonight
 background-opacity             = 1.0
 
@@ -90,6 +50,19 @@ quit-after-last-window-closed  = true
 scrollback-limit               = 4200
 shell-integration              = zsh
 confirm-close-surface          = false
+
+
+# Cursor
+cursor-style-blink = false
+
+# Rendering
+window-vsync = false
+
+# Input
+mouse-hide-while-typing = true
+
+# Scrolling
+mouse-scroll-multiplier = 5
 
 
 
