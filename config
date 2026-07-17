@@ -37,9 +37,9 @@ window-vsync                   = true
 theme                          = night-owl
 #theme = Rose Pine
 #theme                          = tokyonight
-background-opacity             = 0.9
+background-opacity             = 0.95
 background-blur                = true
-adjust-cell-height             = 4
+adjust-cell-height             = 3
 
 
 
