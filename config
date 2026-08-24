@@ -35,9 +35,11 @@ window-vsync                   = true
 #theme                          = everforest-light
 #theme                          = noctis-azureus
 theme                          = night-owl
+# dim body text so Claude Code inline-code highlights (#b7d6fb) and bold stand out
+foreground                     = 94a4b6
 #theme = Rose Pine
 #theme                          = tokyonight
-background-opacity             = 0.95
+background-opacity             = 0.96
 background-blur                = true
 adjust-cell-height             = 3
 
