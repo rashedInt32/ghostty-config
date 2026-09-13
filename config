@@ -112,10 +112,3 @@ keybind                        = super+0=reset_font_size
 keybind                        = super+comma=open_config
 keybind                        = super+shift+c=copy_to_clipboard
 keybind                        = super+shift+v=paste_from_clipboard
-
-# Fallback for glyphs JetBrains Mono lacks. Specifically the circled digits the
-# tmux session bar uses (U+278A..): without this they resolve to Hiragino Sans
-# or Arial Unicode MS, which draw them small and off-weight. Iosevka is a
-# monospace family, so it draws them at terminal proportions.
-# font-family appends rather than replaces, so JetBrains Mono stays primary.
-font-family = "Iosevka Nerd Font"
