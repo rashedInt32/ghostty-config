@@ -59,9 +59,6 @@ confirm-close-surface          = false
 # Cursor
 cursor-style-blink = false
 
-# Rendering
-window-vsync = false
-
 # Input
 mouse-hide-while-typing = true
 
